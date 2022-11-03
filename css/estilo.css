@@ -1,7 +1,8 @@
 header{
+    grid-area: header ;
     display: flex;
     height: 50px;
-    background-color: rgb(237, 241, 245);
+    background-color:#AED6F1;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -21,6 +22,46 @@ nav a{
 
 }
 body{
+    grid-area: body ;
     text-align: center;
     background-color: rgb(223, 224, 240);
     }
+
+.parrafo{
+
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.divTres{
+    grid-area: divDos ;
+ display: flex;
+ justify-content: center;
+  height: 80px; 
+    border: 1px black solid;
+
+}
+.divUno{
+    
+    grid-area: divUno;
+    text-align: center;
+    border: 1px black solid;
+    background-color: #3498DB;
+justify-content: center;
+
+}
+
+.footer{
+    grid-area: footer;
+   text-align: center;
+   background-color:#5DADE2 ;
+    text-transform: uppercase;
+    border: 1px rgb(48, 48, 185) solid;
+}
+.divDos{
+    text-align: center;
+    grid-area: divDOS;
+background-color:#3498DB ;
+border: 1px black solid;
+}
+
